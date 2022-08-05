@@ -5,12 +5,12 @@
 
 def even_list(x):
     # revisamos que sea entero
-    if(type(x) != int):
+    if (type(x) != int):
         return 'E22a'
     else:
         # creamos la lista y agregamos los numeros
-        lista=[]
-        for i in range(0,x+1):
+        lista = []
+        for i in range(0, x+1):
             if (i % 2 == 0):
                 lista.append(i)
         return lista
